@@ -1,0 +1,95 @@
+# 🔹 Виртуальные окружения
+.source/
+source/
+venv/
+.venv/
+env/
+.env/
+.envrc
+
+# 🔹 Python артефакты
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# 🔹 Jupyter Notebook временные файлы
+.ipynb_checkpoints
+
+# 🔹 IDE/редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🔹 Pip и setup
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# 🔹 Pytest и кэши
+.pytest_cache/
+.tox/
+coverage.*
+htmlcov/
+
+# 🔹 Системные/временные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# 🔹 Файлы данных (при необходимости)
+*.csv~
+*.tsv~
+*.xls~
+*.xlsx~
+*.parquet~
+*.feather~
+*.arrow~
+
+# 🔹 CatBoost / модели / графики / веса
+catboost_info/
+logs/
+*.cbm
+*.model
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# 🔹 TensorBoard / графики / output
+runs/
+logs/
+output/
+results/
+checkpoints/
+*.log
+
+# 🔹 Временные / кэш-файлы внутри .source/
+.source/**/__pycache__/
+.source/**/.ipynb_checkpoints
+.source/**/temp/
+.source/**/tmp/
+.source/**/checkpoints/
+.source/**/logs/
+.source/**/output/
+.source/**/runs/
+source/**/*.csv~
+source/**/*.tmp
+source/**/*.bak
+
+# 🔹 Секреты / токены / ключи
+*.env
+*.secrets
+*.key
+*.pem
+*.token
